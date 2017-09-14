@@ -1,0 +1,42 @@
+body {
+  background-color: #182536;
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+
+.title {
+  font-weight: bold;
+}
+
+
+.parallax-window {
+    min-height: 480px;
+    background: transparent;
+}
+
+h4 {
+  color: #182536;
+}
+.imgjs{
+  margin-top: 80%;
+  width: 80px;
+  height: 80px;
+}
+.imgcss, .imghtml  {
+  margin-top: 50%;
+  width: 80px;
+  height: 80px;
+
+}
+
+.imgphp {
+  margin-top: 50%;
+  width: 65px;
+  height: 65px;
+}
+
+.imgoutils {
+  margin-top: 80%;
+  width: 80px;
+  height: 80px;
+}
