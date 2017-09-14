@@ -1,18 +1,19 @@
 body {
   background-color: #182536;
-  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
 
+h4 {
+  color: #182536;
+    font-family: 'Pacifico', cursive;
 }
 
 @media screen and (min-width: 0px) and (max-width: 630px) {
-  #parallax { display: none; }  /* hide it on small screens */
+  #parallax { display: none; }
 }
 
 @media screen and (min-width: 631px) and (max-width: 1024px) {
-  #parallax { display: block; }   /* show it elsewhere */
+  #parallax { display: block; }
 }
-
-
 
 .title {
   font-weight: bold;
@@ -24,10 +25,6 @@ body {
     background: transparent;
 }
 
-h4 {
-  color: #182536;
-  font-weight: bold;
-}
 .imgjs{
   margin-top: 80%;
   width: 80px;
@@ -40,10 +37,15 @@ h4 {
 
 }
 
-.imgphp {
-  margin-top: 50%;
+.imgphp, .imgmysql {
+  margin-top: 10%;
   width: 65px;
   height: 65px;
+}
+.imgapache {
+  margin-top: 30%;
+  width: 45px;
+  height: 45px;
 }
 
 .imgoutils {
