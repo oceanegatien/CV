@@ -1,8 +1,16 @@
 body {
   background-color: #182536;
   font-family: GillSans, Calibri, Trebuchet, sans-serif;
+
 }
 
+@media screen and (min-width: 0px) and (max-width: 630px) {
+  #parallax { display: none; }  /* hide it on small screens */
+}
+
+@media screen and (min-width: 631px) and (max-width: 1024px) {
+  #parallax { display: block; }   /* show it elsewhere */
+}
 
 .title {
   font-weight: bold;
@@ -16,6 +24,7 @@ body {
 
 h4 {
   color: #182536;
+  font-weight: bold;
 }
 .imgjs{
   margin-top: 80%;
