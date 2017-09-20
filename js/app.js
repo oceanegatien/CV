@@ -12,3 +12,7 @@ function resize() {
 }
 
 resize();
+
+$('.collapsible').collapsible();
+
+ $('.modal').modal();
