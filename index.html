@@ -11,10 +11,47 @@
     <link rel="stylesheet" href="css/style.css"/>
   </head>
   <body>
+
+
     <header>
 
-      <div class="">
-          <div id="parallax" class="parallax-window" data-parallax="scroll" data-image-src="img/gatien.jpg">
+
+      <div id="parallax" class="parallax-window" data-parallax="scroll" data-image-src="img/gatien.jpg">
+
+
+        <a class="waves-effect waves-light grey btn modal-trigger btnFixed" href="#modal1"><i class="material-icons">phonelink_ring email location_on</i> Contacts</a>
+
+
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+
+            <ul class="collection with-header">
+              <li class="collection-header grey"><h4 class="center">Contacts</h4></li>
+              <li class="collection-item grey lighten-2 black-text">
+                <p class="title"><i class="material-icons">phonelink_ring</i>&nbsp;&nbsp;Téléphone :</p>
+                <p class="center">06.42.48.98.08</p>
+
+              </li>
+              <li class="collection-item grey lighten-2 black-text">
+                <p class="title"><i class="material-icons">email</i>&nbsp;&nbsp;E-mail :</p>
+                <p class="center">oceanegatienpro@gmail.com</p>
+              </li>
+              <li class="collection-item grey lighten-2 black-text">
+                <p class="title"><i class="material-icons">location_on</i>&nbsp;&nbsp;Adresse :</p>
+                <ul class="center">
+                  <li class="title">Gatien Océane</li>
+                  <li>Lieu dit Lafourcade</li>
+                  <li>32450 Saramon</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">D'accord !</a>
+          </div>
+        </div>
+
+
       </div>
 
 
@@ -40,28 +77,9 @@
 
         <div class="col s12 m5 l5">
 
-            <ul class="collection with-header">
-              <li class="collection-header grey"><h4 class="center">Contacts</h4></li>
-              <li class="collection-item grey lighten-2 black-text">
-                <p class="title"><i class="material-icons">phonelink_ring</i>&nbsp;&nbsp;Téléphone :</p>
-                <div class="center">0642489808</div>
 
-              </li>
-              <li class="collection-item grey lighten-2 black-text">
-                <p class="title"><i class="material-icons">email</i>&nbsp;&nbsp;E-mail :</p>
-                <div class="center">oceanegatienpro@gmail.com</div>
-              </li>
-              <li class="collection-item grey lighten-2 black-text">
-                <p class="title"><i class="material-icons">location_on</i>&nbsp;&nbsp;Adresse :</p>
-                <ul class="center">
-                  <li class="title">Gatien Océane</li>
-                  <li>Lieu dit Lafourcade</li>
-                  <li>32450 Saramon</li>
-                </ul>
-              </li>
-            </ul>
 
-            <div class="card-action"></div>
+
             <ul class="collection with-header grey">
               <li class="collection-header grey"><h4 class="center">Languages de programation</h4></li>
 
@@ -73,22 +91,33 @@
 
                   <div class="card-stacked">
                     <div class="card-content">
-                      <p class="center title">NodeJS, Javascript</p>
+                      <p class="center title">Front-end</p>
                       <div class="card-action"></div>
-                      <p class="center">Express, NodeFS</p>
+                      <p class="center">HTML5, CSS3, Javascript</p>
+                      <p class="center">NodeJs, Tests unitaires</p>
                       <p class="center">Jquery, ReactJs</p>
+
                     </div>
 
                     <div class="center">
-                      <a class="teal-text lighten-1" href="https://github.com/oceanegatien">Projets:</a>
+
                       <div class="row">
+                        <div class="col s12">
+                          <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">swap_vert</i> Projets front-end: <a href="https://github.com/oceanegatien"><i class="material-icons secondicon">exit_to_app</i></a></div>
+                              <div class="collapsible-body"><ul>
+                                <li><a href="https://github.com/oceanegatien/airb-b">Blog Jquery</a></li>
+                                <li><a href="https://github.com/oceanegatien/cvSass">Annuaire Jquery, NodeFS</a></li>
+                                <li><a href="https://github.com/oceanegatien/todoreact">To Do List ReactJs</a></li>
+                                <li><a href="https://github.com/oceanegatien/morpion">Jeu du morpion Jquery</a></li>
 
-                        <div class="col s6">
-                          <a class="teal-text lighten-1" href="https://github.com/oceanegatien/blog"> Blog</a>
-                        </div>
+                              </ul></div>
+                            </li>
 
-                        <div class="col s6">
-                          <a class="teal-text lighten-1" href="https://github.com/oceanegatien/morpion">Jeu  du morpion</a>
+                          </ul>
+
+
                         </div>
 
                       </div>
@@ -106,53 +135,69 @@
                   </div>
                   <div class="card-stacked">
                     <div class="card-content">
-                      <p class="center title">HTML5, CSS3</p>
+                      <p class="center title">Back-end</p>
                       <div class="card-action"></div>
-                      <p class="center">Framework CSS</p>
-                      <p class="center">Materialize CSS, Bootstrap</p>
-                      <p class="center">SASS, templates (jade)</p>
+                      <p class="center">NodeFs, Express</p>
+                      <p class="center">Création bases de données, LAMP</p>
+                      <p class="center">PHP, MySql, Apache 2</p>
+                      <p class="center">Laravel, PHP units</p>
                     </div>
-                    <div class="card-action center">
-                      <a class="center teal-text lighten-1" href="https://github.com/oceanegatien">Projets:</a>
-                      <div class="row">
-                        <div class="col s6">
-                          <a class="center teal-text lighten-1" href="https://github.com/oceanegatien/airb-b">AirBnb</a>
-                        </div>
-                        <div class="col s6">
-                          <a class="center teal-text lighten-1" href="https://github.com/oceanegatien/cvSass">CV (SASS)</a>
+                    <div class="center">
 
+                      <div class="row">
+                        <div class="col s12">
+                          <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">swap_vert</i> Projets back-end: <a href="https://github.com/oceanegatien"><i class="material-icons secondicon">exit_to_app</i></a></div>
+                              <div class="collapsible-body"><ul>
+                                <li><a href="https://github.com/oceanegatien/cvSass">Annuaire NodeFS</a></li>
+                                <li><a href="https://github.com/oceanegatien/annuairePHP">Annuaire PHP</a></li>
+                                <li><a href="https://github.com/oceanegatien/todolaravel">To Do List Laravel</a></li>
+
+                              </ul></div>
+                            </li>
+
+                          </ul>
                         </div>
+
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
+
               <div class="col s12">
                 <div class="card horizontal grey lighten-2">
                   <div class="card-image">
-                    <img class="hide-on-medium-and-down imgphp" src="img/php.png">
-                    <img class="hide-on-medium-and-down imgmysql" src="img/mysql.png">
-                    <img class="hide-on-medium-and-down imgapache" src="img/apache.png">
+                    <img class="hide-on-medium-and-down imgcss" src="img/materializecss.svg">
+                    <img class="hide-on-medium-and-down imghtml" src="img/wordpress.png">
                   </div>
                   <div class="card-stacked">
                     <div class="card-content">
-                      <p class="center title">PHP, MySQL</p>
+                      <p class="center title">Outils</p>
                       <div class="card-action"></div>
-                      <p class="center">Apache 2, Laravel</p>
-                      <p class="center">PHP Units</p>
+                      <p class="center">CMS WordPress</p>
+                      <p class="center">Framework CSS (materializecss, bootstrap...)</p>
+                      <p class="center">SASS</p>
                     </div>
-                    <div class="card-action center">
-                      <a class="teal-text lighten-1" href="https://github.com/oceanegatien">Projets:</a>
+                    <div class="center">
+
                       <div class="row">
-                        <div class="col s6">
-                          <a class="center teal-text lighten-1" href="https://github.com/oceanegatien/annuairePHP">Annuaire</a>
-                        </div>
-                        <div class="col s6">
-                          <a class="center teal-text lighten-1" href="https://github.com/oceanegatien/php-exercise">Exercices</a>
+                        <div class="col s12">
+                          <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">swap_vert</i> Projets pédagogiques: <a href="https://github.com/oceanegatien"><i class="material-icons secondicon">exit_to_app</i></a></div>
+                              <div class="collapsible-body"><ul>
+                                <li><a href="https://github.com/Nolan32/Projet_Cantoloup">Site monopage, page d'accueil hotspot WiFi Cantoloup-Lavallé</a></li>
+                                <li><a href="https://github.com/Decarpentrie/urhaj">Site responsive d'annonces immobilières, Urhaj</a></li>
+
+                              </ul></div>
+                            </li>
+
+                          </ul>
 
                         </div>
-
                       </div>
                     </div>
                   </div>
@@ -166,23 +211,30 @@
                   </div>
                   <div class="card-stacked">
                     <div class="card-content">
-                      <p class="center title">Outils</p>
+                      <p class="center title">Methodologie</p>
                       <div class="card-action"></div>
-                      <p class="center">KanBan, méthodes agiles</p>
-                      <p class="center">Git, Wireframes</p>
-                      <p class="center">Diagrames</p>
+                      <p class="center">Méthodes agiles, versionning</p>
+                      <p class="center">Git, Wireframes, KanBan</p>
+                      <p class="center">Diagrames, user case ...</p>
                     </div>
-                    <div class="card-action center">
-                      <a class="teal-text lighten-1" href="https://github.com/oceanegatien">Projets:</a>
+                    <div class="center">
+
                       <div class="row">
-                        <div class="col s6">
-                          <a class="center teal-text lighten-1" href="https://github.com/Nolan32/Projet_Cantoloup">Foyer Cantoloup</a></br>
+                        <div class="col s12">
+                          <ul class="collapsible" data-collapsible="accordion">
+                            <li>
+                              <div class="collapsible-header"><i class="material-icons">swap_vert</i> Projets pédagogiques: <a href="https://github.com/oceanegatien"><i class="material-icons secondicon">exit_to_app</i></a></div>
+                              <div class="collapsible-body"><ul>
+                                <li><a href="https://github.com/Nolan32/Projet_Cantoloup">Site monopage, page d'accueil hotspot WiFi, Cantoloup-Lavallé</a></li>
+                                <li><a href="https://github.com/Decarpentrie/urhaj">Site responsive d'annonces immobilières, Urhaj</a></li>
+
+                              </ul></div>
+                            </li>
+
+                          </ul>
 
                         </div>
-                        <div class="col s6">
-                          <a class="teal-text lighten-1" href="https://github.com/Decarpentrie/urhaj">Urhaj</a>
 
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -192,59 +244,41 @@
               <div class="row">
                 <div class="col s12">
                   <ul class="collection with-header grey">
-                    <li class="collection-header grey"><h4 class="center">Hobbies</h4></li>
-                    <li class="collection-item avatar grey lighten-2"><img src="img/hobbies2.svg" alt="" class="circle"><span class="black-text">Lecture</span>
-                      <p class="black-text">Voyage, découverte</p>
-                      <p class="black-text">Montage photo, vidéo</p>
-                      <a href="#!" class="secondary-content"></a>
+                    <li class="collection-header grey"><h4 class="center">Événements</h4></li>
+                    <li class="collection-item grey lighten-2 black-text">
+                      <p class="year">Septembre 2017:</p>
+                      <div class="center">
+                        <p class="title">Hackathon Wo'Mixcity, EDF Bazacle, Toulouse</p>
+                        <p> - Création d'un projet autour de la médecine par les plantes</p>
+                        <p> - Fabrication d'une démo avec WordPress</p>
+                        <p> - 3ème place, prix "mention spéciale du jury"</p>
+                      </div>
                     </li>
+                    <!-- <li class="collection-item grey lighten-2 black-text">
+                      <p class="year">Septembre 2017:</p>
+                      <div class="center">
+                        <p class="title">Meetup sur le numérique, Kanope, Auch</p>
+                        <p>Rencontre autour du théme du numérique</p>
 
-                    <li class="collection-item avatar grey lighten-2"><img src="img/geek.png" alt="" class="circle"><span class="black-text">Jeux vidéos</span>
-                      <p class="black-text">Série, musique</p>
-                      <p class="black-text">Gestion de groupes facebook</p>
-                      <a href="#!" class="secondary-content"></a>
-
-                    </li>
-                    <li></li>
-                  </li>
-                </ul>
+                      </div>
+                    </li> -->
+                  </ul>
 
                 </div>
+
               </div>
+
+
+
+
 
 
           </div>
 
           <div class="col s12 m7 l7">
 
-            <ul class="collection with-header grey">
-              <li class="collection-header grey"><h4 class="center">Formations</h4></li>
-              <li class="collection-item grey lighten-2 black-text">2017-2018:<div><i class="material-icons">developer_mode</i>&nbsp;&nbsp;Formation développeur web, Ecole régionale du numérique, Simplon Auch</div></li>
-              <li class="collection-item grey lighten-2 black-text">2012-2014:<div><i class="material-icons">accessible</i>&nbsp;&nbsp;Formation moniteur-éducateur, IMES Rosette Bergerac</div></li>
-              <li class="collection-item grey lighten-2 black-text">2009:<div><i class="material-icons">card_membership</i>&nbsp;&nbsp;Baccalaureat série économique et social, L'isle-jourdain</div></li>
-            </ul>
 
 
-              <ul class="collection with-header grey">
-                <li class="collection-header grey"><h4 class="center">Événements</h4></li>
-                <li class="collection-item grey lighten-2 black-text">
-                  <p class="year">Septembre 2017:</p>
-                  <div class="center">
-                    <p class="title">Hackathon Wo'Mixcity, EDF Bazacle, Toulouse</p>
-                    <p> - Création d'un projet autour de la médecine par les plantes</p>
-                    <p> - Fabrication d'une démo avec WordPress</p>
-                    <p> - 3ème place, prix "mention spéciale du jury"</p>
-                  </div>
-                </li>
-                <!-- <li class="collection-item grey lighten-2 black-text">
-                  <p class="year">Septembre 2017:</p>
-                  <div class="center">
-                    <p class="title">Meetup sur le numérique, Kanope, Auch</p>
-                    <p>Rencontre autour du théme du numérique</p>
-
-                  </div>
-                </li> -->
-              </ul>
 
 
             <ul class="collection with-header grey lighten-2">
@@ -304,16 +338,39 @@
               </ul>
 
 
+              <ul class="collection with-header grey">
+                <li class="collection-header grey"><h4 class="center">Formations</h4></li>
+                <li class="collection-item grey lighten-2 black-text">2017-2018:<div><i class="material-icons">developer_mode</i>&nbsp;&nbsp;Formation développeur web, Ecole régionale du numérique, Simplon Auch</div></li>
+                <li class="collection-item grey lighten-2 black-text">2012-2014:<div><i class="material-icons">accessible</i>&nbsp;&nbsp;Formation moniteur-éducateur, IMES Rosette Bergerac</div></li>
+                <li class="collection-item grey lighten-2 black-text">2009:<div><i class="material-icons">card_membership</i>&nbsp;&nbsp;Baccalaureat série économique et social, L'isle-jourdain</div></li>
+              </ul>
 
 
           </div>
+      </div>
+
+
+      <div class="row">
+        <ul class="collection with-header grey">
+          <li class="collection-header grey"><h4 class="center">Hobbies</h4></li>
+
+            <li class="col s6 collection-item avatar grey lighten-2"><img src="img/hobbies2.svg" alt="" class="circle">
+              <p class="center black-text">Lecture</p>
+              <p class="center black-text">Voyage, découverte</p>
+              <p class="center black-text">Montage photo, vidéo</p>
+              <p class="center black-text">Nouvelles technologies</p>
+            </li>
 
 
 
+            <li class="col s6 collection-item avatar grey lighten-2"><img src="img/geek.png" alt="" class="circle">
+              <p class="center black-text">Jeux vidéos</p>
+              <p class="center black-text">Série, musique</p>
+              <p class="center black-text">Gestion de groupes facebook</p>
+              <p class="center">-</p>
+            </li>
 
-
-
-
+        </ul>
 
 
       </div>
