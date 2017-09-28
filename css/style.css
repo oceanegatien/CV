@@ -3,6 +3,12 @@ body {
   font-family: 'Patrick Hand SC', cursive;
   font-size: 18px;
 }
+#modal1 .modal-footer {
+  background-color: #182536;
+}
+#modal1 {
+  background-color: #182536;
+}
 
 h4 {
   color: #182536;
@@ -28,7 +34,7 @@ h4 {
 }
 
 .parallax-window {
-    min-height: 480px;
+    min-height: 550px;
     background: transparent;
 }
 
